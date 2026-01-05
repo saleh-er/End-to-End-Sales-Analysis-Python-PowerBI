@@ -1,0 +1,19 @@
+# Python - Environnement virtuel et cache
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Données (On ignore les fichiers lourds ou temporaires)
+01_Data/*.csv
+01_Data/*.xlsx
+!01_Data/sales_data_clean.csv
+
+# Power BI - Fichiers temporaires
+*.tmp
+*.temp
+03_PowerBI/*.zip
+
+# Windows / Système
+Thumbs.db
+.DS_Store
